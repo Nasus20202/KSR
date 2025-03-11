@@ -1,0 +1,10 @@
+﻿import "oaidl.idl";
+[object, uuid(AFEAC528-6033-4E9B-85D7-36EBE56A4A81)]
+interface IKlasa2 : IUnknown {
+	HRESULT Test([in]int i);
+};
+
+// 1. Zmienić budowanie na DLL i ustawić zdefiniować plik DEF
+// 2. Dodać wszystkie ustawienia budowania ze strony 20
+// 3. Uruchomić regsvr32.exe na pliku DLL jako administrator
+// 4. Jeśli nie działa, to trzeba też zrobić rejestację servera2.exe (jak w zadaniu 1)
