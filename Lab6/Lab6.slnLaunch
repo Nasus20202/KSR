@@ -1,0 +1,23 @@
+[
+  {
+    "Name": "Zadanie 6",
+    "Projects": [
+      {
+        "Path": "Zadanie6_Klient\\Zadanie6_Klient.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Zadanie6_SerwisPierwszy\\Zadanie6_SerwisPierwszy.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Zadanie6_SerwisDrugi\\Zadanie6_SerwisDrugi.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Zadanie6_Router\\Zadanie6_Router.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
