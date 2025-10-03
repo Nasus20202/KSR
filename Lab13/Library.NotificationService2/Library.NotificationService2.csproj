@@ -16,7 +16,7 @@
           <Version>5.3.2</Version>
         </PackageReference>
         <PackageReference Include="MassTransit.RabbitMQ">
-          <Version>5.3.2</Version>
+          <Version>5.5.6</Version>
         </PackageReference>
         <PackageReference Include="Microsoft.AspNetCore.App" />
         <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.2.0" />
