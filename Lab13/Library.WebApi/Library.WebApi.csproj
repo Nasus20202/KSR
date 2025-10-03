@@ -10,7 +10,7 @@
 
     <ItemGroup>
         <PackageReference Include="MassTransit">
-          <Version>5.3.2</Version>
+          <Version>8.5.3</Version>
         </PackageReference>
         <PackageReference Include="MassTransit.AspNetCore">
           <Version>5.3.2</Version>
