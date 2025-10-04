@@ -3,7 +3,7 @@ COPY ./ /build
 WORKDIR /build
 RUN dotnet publish -c Release -o out
 
-FROM mcr.microsoft.com/dotnet/aspnet:8.0-alpine
+FROM mcr.microsoft.com/dotnet/aspnet:10.0-alpine
 COPY --from=builder /build/out /app
 WORKDIR /app
 EXPOSE 91
