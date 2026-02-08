@@ -9,7 +9,7 @@
 
   <ItemGroup>
     <PackageReference Include="MassTransit.Newtonsoft" Version="8.4.0" />
-    <PackageReference Include="MassTransit.RabbitMQ" Version="8.4.0" />
+    <PackageReference Include="MassTransit.RabbitMQ" Version="8.5.8" />
     <ProjectReference Include="..\Messages\Messages.csproj" />
   </ItemGroup>
 
